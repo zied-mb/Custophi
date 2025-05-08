@@ -20,17 +20,6 @@ _Custophi combines cutting-edge password security with AI-powered personal brand
 
 ---
 
-## 🌟 Featured Tools
-
-| Secret Key 🔐 | Bio Scripto 🤖 |
-|--------------|----------------|
-| Military-grade password generator | GPT-4 powered bio creator |
-| Client-side encryption | 25+ cultural adaptations |
-| Real-time strength analysis | Platform-optimized formatting |
-| Zero-knowledge architecture | Emotionally intelligent phrasing |
-
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend**: [React.js](https://reactjs.org/) (v18.x) + [Tailwind CSS](https://tailwindcss.com/) (v3.x) ⚛️🎨  
@@ -42,6 +31,16 @@ _Custophi combines cutting-edge password security with AI-powered personal brand
 - **Testing**: (Add testing frameworks here if used, e.g., Jest, React Testing Library)  
 - **CI/CD**: (Add CI/CD tools here if used, e.g., GitHub Actions, CircleCI)
 
+---
+
+## 🌟 Featured Tools
+
+| Secret Key 🔐 | Bio Scripto 🤖 |
+|--------------|----------------|
+| Military-grade password generator | GPT-4 powered bio creator |
+| Client-side encryption | 25+ cultural adaptations |
+| Real-time strength analysis | Platform-optimized formatting |
+| Zero-knowledge architecture | Emotionally intelligent phrasing |
 
 ---
 
