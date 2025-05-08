@@ -141,30 +141,37 @@ Please ensure your code follows the existing style and includes appropriate test
 
 ---
 
-## 🖼️ Brand Identity
+# Brand Identity ✨  
+*Where Customer Wisdom Meets Digital Innovation*
+
+---
 
 <table>
   <tr>
-    <td width="40%">
-      <img src="public/images/Custophi.png" alt="Custophi Logo" width="200" style="border: 1px solid #eee; border-radius: 8px; padding: 10px;">
+    <td width="35%" style="border:none">
+      <img src="public/images/Custophi.png" alt="Custophi Logo" width="250" style="border:2px solid #e0e0e0; border-radius:12px; padding:15px">
     </td>
-    <td>
+    <td style="border:none; vertical-align:top">
 
-### The Meaning Behind Custophi  
-**Custophi** combines *"customer"* and *"sophia"* (σοφία) - the ancient Greek word for wisdom.  
+## The Philosophy of Σοφία  
+**Etymology**: *Custophi* = **Customer** + **Sophia** (σοφία)  
+*Ancient Greek concept of "wisdom through strategic understanding"*
 
-> "Sophia reflects a philosophy rooted in empathy, intelligence, and strategic insight."
+> "True digital sovereignty emerges when technical excellence harmonizes with human insight."  
+> ― Custophi Design Principle
 
-**Core Principles**  
-✓ Thoughtfully crafted, data-informed solutions  
-✓ Empowering meaningful customer relationships  
-✓ Wisdom-led innovation strategy  
-✓ Human-centered design philosophy  
-
-*At its core, Custophi delivers solutions that:*  
-- Meet evolving digital security needs  
-- Drive sustainable growth through innovation  
-- Balance technical excellence with human insight  
+### 🔑 Core Tenets  
+<div style="column-count:2; column-gap:2rem">
+  
+- 🧠 **Wisdom-Led Design**  
+  Data-informed decision architecture  
+- 🤝 **Relational Engineering**  
+  Empathy-driven customer ecosystems  
+- 🔄 **Sustainable Innovation**  
+  Growth-focused technical evolution  
+- 🛡️ **Human-Centered Security**  
+  Privacy as fundamental right  
+</div>
 
     </td>
   </tr>
