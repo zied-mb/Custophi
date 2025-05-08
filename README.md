@@ -20,6 +20,42 @@ _Custophi combines cutting-edge password security with AI-powered personal brand
 
 ---
 
+# Brand Identity ✨  
+*Where Customer Wisdom Meets Digital Innovation*
+
+---
+
+<table>
+  <tr>
+    <td width="35%" style="border:none">
+      <img src="public/images/Custophi.png" alt="Custophi Logo" width="300" style="border:2px solid #e0e0e0; border-radius:12px; padding:15px">
+    </td>
+    <td style="border:none; vertical-align:top">
+
+## The Philosophy of Σοφία  
+**Etymology**: *Custophi* = **Customer** + **Sophia** (σοφία)  
+*Ancient Greek concept of "wisdom through strategic understanding"*
+
+> "True digital sovereignty emerges when technical excellence harmonizes with human insight."  
+> ― Custophi Design Principle
+
+### 🔑 Core Tenets  
+<div style="column-count:2; column-gap:2rem">
+  
+- 🧠 **Wisdom-Led Design**  
+  Data-informed decision architecture  
+- 🤝 **Relational Engineering**  
+  Empathy-driven customer ecosystems  
+- 🔄 **Sustainable Innovation**  
+  Growth-focused technical evolution  
+- 🛡️ **Human-Centered Security**  
+  Privacy as fundamental right  
+</div>
+  </tr>
+</table>
+
+---
+
 ## 🌟 Featured Tools
 
 | Secret Key 🔐 | Bio Scripto 🤖 |
@@ -138,42 +174,6 @@ Contributions are welcome! If you'd like to contribute to Custophi, please follo
 5. Open a pull request describing your changes.
 
 Please ensure your code follows the existing style and includes appropriate tests.
-
----
-
-# Brand Identity ✨  
-*Where Customer Wisdom Meets Digital Innovation*
-
----
-
-<table>
-  <tr>
-    <td width="35%" style="border:none">
-      <img src="public/images/Custophi.png" alt="Custophi Logo" width="300" style="border:2px solid #e0e0e0; border-radius:12px; padding:15px">
-    </td>
-    <td style="border:none; vertical-align:top">
-
-## The Philosophy of Σοφία  
-**Etymology**: *Custophi* = **Customer** + **Sophia** (σοφία)  
-*Ancient Greek concept of "wisdom through strategic understanding"*
-
-> "True digital sovereignty emerges when technical excellence harmonizes with human insight."  
-> ― Custophi Design Principle
-
-### 🔑 Core Tenets  
-<div style="column-count:2; column-gap:2rem">
-  
-- 🧠 **Wisdom-Led Design**  
-  Data-informed decision architecture  
-- 🤝 **Relational Engineering**  
-  Empathy-driven customer ecosystems  
-- 🔄 **Sustainable Innovation**  
-  Growth-focused technical evolution  
-- 🛡️ **Human-Centered Security**  
-  Privacy as fundamental right  
-</div>
-  </tr>
-</table>
 
 ---
 
