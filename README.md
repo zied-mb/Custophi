@@ -149,7 +149,7 @@ Please ensure your code follows the existing style and includes appropriate test
 <table>
   <tr>
     <td width="35%" style="border:none">
-      <img src="public/images/Custophi.png" alt="Custophi Logo" width="250" style="border:2px solid #e0e0e0; border-radius:12px; padding:15px">
+      <img src="public/images/Custophi.png" alt="Custophi Logo" width="300" style="border:2px solid #e0e0e0; border-radius:12px; padding:15px">
     </td>
     <td style="border:none; vertical-align:top">
 
@@ -172,8 +172,6 @@ Please ensure your code follows the existing style and includes appropriate test
 - 🛡️ **Human-Centered Security**  
   Privacy as fundamental right  
 </div>
-
-    </td>
   </tr>
 </table>
 
