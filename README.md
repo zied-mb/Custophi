@@ -141,9 +141,34 @@ Please ensure your code follows the existing style and includes appropriate test
 
 ---
 
-## 🖼️  Logo Custophi
+## 🖼️ Brand Identity
 
-![Home Page](public/images/Custophi.png)
+<table>
+  <tr>
+    <td width="40%">
+      <img src="public/images/Custophi.png" alt="Custophi Logo" width="200" style="border: 1px solid #eee; border-radius: 8px; padding: 10px;">
+    </td>
+    <td>
+
+### The Meaning Behind Custophi  
+**Custophi** combines *"customer"* and *"sophia"* (σοφία) - the ancient Greek word for wisdom.  
+
+> "Sophia reflects a philosophy rooted in empathy, intelligence, and strategic insight."
+
+**Core Principles**  
+✓ Thoughtfully crafted, data-informed solutions  
+✓ Empowering meaningful customer relationships  
+✓ Wisdom-led innovation strategy  
+✓ Human-centered design philosophy  
+
+*At its core, Custophi delivers solutions that:*  
+- Meet evolving digital security needs  
+- Drive sustainable growth through innovation  
+- Balance technical excellence with human insight  
+
+    </td>
+  </tr>
+</table>
 
 ---
 
