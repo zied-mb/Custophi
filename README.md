@@ -190,16 +190,6 @@ A: It uses military-grade encryption and client-side generation to ensure maximu
 
 ---
 
-## 📬 Contact
-
-For questions, support, or feedback, please reach out via:
-
-- LinkedIn: [Zied Meddeb](https://www.linkedin.com/in/zied-meddeb-7087a2266/)
-- Email: Dounzay@gmail.com
-
----
-
-
 ## 🛤️ Roadmap
 
 Planned features and improvements:
@@ -238,9 +228,9 @@ Planned features and improvements:
 
 ---
 
-## 📜 Code of Conduct
+## 📬 Contact
 
-We expect all contributors and users to follow the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/).
+For questions, support, or feedback, please reach out via:
 
-By participating, you agree to respect others and maintain a welcoming environment.
-
+- LinkedIn: [Zied Meddeb](https://www.linkedin.com/in/zied-meddeb-7087a2266/)
+- Email: Dounzay@gmail.com
