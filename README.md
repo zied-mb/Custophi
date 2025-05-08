@@ -20,42 +20,6 @@ _Custophi combines cutting-edge password security with AI-powered personal brand
 
 ---
 
-# Brand Identity ✨  
-*Where Customer Wisdom Meets Digital Innovation*
-
----
-
-<table>
-  <tr>
-    <td width="35%" style="border:none">
-      <img src="public/images/Custophi.png" alt="Custophi Logo" width="300" style="border:2px solid #e0e0e0; border-radius:12px; padding:15px">
-    </td>
-    <td style="border:none; vertical-align:top">
-
-## The Philosophy of Σοφία  
-**Etymology**: *Custophi* = **Customer** + **Sophia** (σοφία)  
-*Ancient Greek concept of "wisdom through strategic understanding"*
-
-> "True digital sovereignty emerges when technical excellence harmonizes with human insight."  
-> ― Custophi Design Principle
-
-### 🔑 Core Tenets  
-<div style="column-count:2; column-gap:2rem">
-  
-- 🧠 **Wisdom-Led Design**  
-  Data-informed decision architecture  
-- 🤝 **Relational Engineering**  
-  Empathy-driven customer ecosystems  
-- 🔄 **Sustainable Innovation**  
-  Growth-focused technical evolution  
-- 🛡️ **Human-Centered Security**  
-  Privacy as fundamental right  
-</div>
-  </tr>
-</table>
-
----
-
 ## 🌟 Featured Tools
 
 | Secret Key 🔐 | Bio Scripto 🤖 |
@@ -147,22 +111,6 @@ This will launch the app at [http://localhost:3000](http://localhost:3000) in yo
 
 ---
 
-## 🧑‍💻 Usage
-
-- Navigate through the app using the Navbar.
-- Use **Bio Scripto** to generate AI-powered bios tailored by style, niche, region, platform, and more.
-- Use **Secret Key** to generate strong, customizable passwords with real-time strength analysis.
-- Explore blog pages for additional content.
-- Access **About**, **Privacy Policy**, and **Contact Us** pages for more information.
-
----
-
-## 📄 License
-
-This project is proprietary. For more information, visit [linkedin](https://www.linkedin.com/in/zied-meddeb-7087a2266/).
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome! If you'd like to contribute to Custophi, please follow these steps:
@@ -190,41 +138,47 @@ A: It uses military-grade encryption and client-side generation to ensure maximu
 
 ---
 
-## 🛤️ Roadmap
-
-Planned features and improvements:
-
-- Add multi-language support for Bio Scripto.
-- Implement user accounts and data sync.
-- Enhance password strength analysis with AI.
-- Add mobile app version.
-- Improve UI/UX based on user feedback.
-
----
-
 ## ⚠️ Known Issues
 
 - Some browsers may have limited support for client-side encryption features.
 - Occasional delays in AI bio generation under high load.
 - Password strength meter may not reflect all edge cases.
 
+--- 
+
+# Brand Identity ✨  
+*Where Customer Wisdom Meets Digital Innovation*
+
 ---
 
-## 📚 Detailed Usage Examples
+<table>
+  <tr>
+    <td width="35%" style="border:none">
+      <img src="public/images/Custophi.png" alt="Custophi Logo" width="300" style="border:2px solid #e0e0e0; border-radius:12px; padding:15px">
+    </td>
+    <td style="border:none; vertical-align:top">
 
-### Generating a Bio
+## The Philosophy of Σοφία  
+**Etymology**: *Custophi* = **Customer** + **Sophia** (σοφία)  
+*Ancient Greek concept of "wisdom through strategic understanding"*
 
-1. Navigate to the Bio Scripto page.
-2. Select your desired style, niche, and region.
-3. Click "Generate" to receive a tailored bio.
-4. Copy the bio and paste it into your social media profile.
+> "True digital sovereignty emerges when technical excellence harmonizes with human insight."  
+> ― Custophi Design Principle
 
-### Generating a Password
-
-1. Go to the Secret Key page.
-2. Customize password length and character options.
-3. Click "Generate" to create a strong password.
-4. Use the password as needed; it is never stored.
+### 🔑 Core Tenets  
+<div style="column-count:2; column-gap:2rem">
+  
+- 🧠 **Wisdom-Led Design**  
+  Data-informed decision architecture  
+- 🤝 **Relational Engineering**  
+  Empathy-driven customer ecosystems  
+- 🔄 **Sustainable Innovation**  
+  Growth-focused technical evolution  
+- 🛡️ **Human-Centered Security**  
+  Privacy as fundamental right  
+</div>
+  </tr>
+</table>
 
 ---
 
