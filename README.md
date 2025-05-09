@@ -21,25 +21,41 @@ _Custophi combines cutting-edge password security with AI-powered personal brand
 
 ---
   
-## 🌐 Live Demo  
-**Experience Custophi in Action**  
-<div align="center">
-
-[![Live Production](https://img.shields.io/badge/🚀_Live_Production-Custophi_Web-2EA44F?style=for-the-badge&logo=netlify&logoColor=white)](https://custophi.netlify.app/)  
-**🔗 Quick Access:** `https://custophi.netlify.app/`
-
-</div>
-
-<div align="center" style="margin:2rem 0">
-  <a href="https://custophi.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Explore_Now-%2300C7B7?style=flat-square&logo=windowsterminal&logoColor=white" alt="Explore Demo">
-  </a>
+---
   
-  ![Demo Preview](https://via.placeholder.com/800x400.png/2EA44F/ffffff?text=Custophi+Web+Preview+%0A%F0%9F%9A%80+Click+Live+Demo+Badge+Above)
+## 🌐 Live Experience  
+**Immerse Yourself in Digital Sovereignty**  
+<div align="center" class="live-demo-container">
+
+[![Production Environment](https://img.shields.io/badge/🚀_Live_Production-Custophi_Web-9146FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=2A2A2A)](https://custophi.netlify.app/)  
+**Instant Access:** `custophi.netlify.app`
+
+<div style="margin: 1.5rem 0">
+  <a href="https://custophi.netlify.app/" target="_blank" class="demo-button">
+    <img src="https://img.shields.io/badge/🚪_Enter_Dashboard-%2300C7B7?style=flat-square&logo=gate&logoColor=white&labelColor=1A1A1A" alt="Access Portal">
+  </a>
 </div>
 
-*✨ Protip: Bookmark this URL for quick access to your digital identity toolkit!*
+![Live Preview](https://via.placeholder.com/800x400.png/9146FF/ffffff?text=Dynamic+Interface+Preview+%0A%F0%9F%96%90%EF%B8%8F+Real-time+Security+Visualization+%0A%F0%9F%92%BB+AI+Generation+Workflow+Demo)  
+*Live demo updated every 24 hours with latest features*
 
+</div>
+
+<details>
+<summary><strong>🔗 Quick Access Menu</strong></summary>
+
+| Environment      | URL                          | Status               |
+|------------------|------------------------------|----------------------|
+| Production       | custophi.netlify.app         | 🟢 Operational       |
+| Staging          | custophi-dev.netlify.app     | 🟡 Testing Phase     |
+| Archive          | custophi-legacy.netlify.app  | 🔴 Retired           |
+
+</details>
+
+<div align="center" style="margin-top: 2rem">
+  <img src="https://img.shields.io/badge/🔒_Zero_Data_Retention-100%25_Private-01D277?logo=privacypass&logoColor=white" alt="Privacy Guarantee">
+  <img src="https://img.shields.io/badge/⚡_Edge_Deployed-Global_CDN-FF6F01?logo=cloudflare&logoColor=white" alt="Deployment Status">
+</div>
 ---
 
 
