@@ -36,7 +36,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  to="/password-generator"
+                  to="/PasswordGenerator"
                   className="text-gray-400 hover:text-blue-400 text-sm transition-colors flex items-center gap-2"
                 >
                   <Key className="h-3.5 w-3.5" />
@@ -45,7 +45,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/bio-generator"
+                  to="/bioScripto"
                   className="text-gray-400 hover:text-purple-400 text-sm transition-colors flex items-center gap-2"
                 >
                   <UserCircle className="h-3.5 w-3.5" />
@@ -72,7 +72,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/contact"
+                  to="/contact-us"
                   className="text-gray-400 hover:text-rose-400 text-sm transition-colors flex items-center gap-2"
                 >
                   <Mail className="h-3.5 w-3.5" />
