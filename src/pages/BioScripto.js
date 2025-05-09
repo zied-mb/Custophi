@@ -293,7 +293,7 @@ const BioScripto = ({
                   <div>
                     <label className="block mb-2 font-semibold text-gray-200 flex items-center gap-2">
                       <Squares2X2Icon className="h-5 w-5 text-indigo-400" />
-                      Platform
+                      Platform *
                     </label>
                     <select
                       value={selectedPlatform}
@@ -347,7 +347,7 @@ const BioScripto = ({
                   <div>
                     <label className="block mb-2 font-semibold text-gray-200 flex items-center gap-2">
                       <HashtagIcon className="h-5 w-5 text-indigo-400" />
-                      Niche *
+                      Niche
                     </label>
                     <select
                       value={selectedNiche}
@@ -366,7 +366,7 @@ const BioScripto = ({
                   <div>
                     <label className="block mb-2 font-semibold text-gray-200 flex items-center gap-2">
                       <SparklesIcon className="h-5 w-5 text-indigo-400" />
-                      Style *
+                      Style
                     </label>
                     <select
                       value={selectedStyle}
@@ -731,33 +731,35 @@ BioScripto.defaultProps = {
     'Funny', 'Sad', 'Gamer', 'Cool', 'Creative', 'Motivational', 'Romantic', 'Professional',
     'Witty', 'Sarcastic', "Mysterious", "Calm", "Inspirational", "Ambition", "Compassionate",
     "Obsessive", "Easy", "Confident", "Stylish", "Mysterious", "Spiritual", "Realistic", "Bold",
-    "Kind", "Adventurous", "Empowering", "Weird", "Modern", "Technophile", "Rebellious"
+    "Kind", "Adventurous", "Empowering", "Weird", "Modern", "Technophile", "Rebellious", "Other ..",
   ],
   nicheCategories: [
     'Developer', 'TikToker', 'Instagrammer', 'Artist', 'Photographer', 'Gamer',
     'Designer', 'Musician', 'Dancer', 'Entrepreneur', 'Influencer', 'Student',
     'Streamer', 'Traveler', 'Fitness Coach', 'Makeup Artist', 'Fashion Blogger',
     'Foodie', 'Pet Lover', 'Bookworm', 'Teacher', 'Parenting Blogger', 'Spiritual Guide',
-    'Digital Marketer', 'Content Creator', 'YouTuber', 'Freelancer'
+    'Digital Marketer', 'Content Creator', 'YouTuber', 'Freelancer', 'Product Seller', 'Forex Trader',
+    'Real Estate Agent', 'Social Media Manager', 'Life Coach', 'Motivational Speaker', 'Podcaster', 'Interior Designer', 'Other ..'
+
   ],
   contentThemes: [
     'Lifestyle', 'Vlogging', 'Motivation', 'Comedy', 'Education', 'Tech Reviews',
     'Beauty & Skincare', 'Fitness & Health', 'Travel', 'Streetwear', 'Art & Illustration',
     'Gaming Highlights', 'Behind the Scenes', 'Daily Routines', 'Pet Content', 'ASMR',
     'DIY & Crafts', 'Unboxing', 'Productivity', 'Fashion Tips', 'Spiritual & Mindfulness',
-    'Food Recipes', 'Relationship Advice', 'Book Reviews', 'Personal Growth'
+    'Food Recipes', 'Relationship Advice', 'Book Reviews', 'Personal Growth', 'Other ..'
   ],
 
   contentPlatform: [
     'Instagram', 'TikTok', 'Twitter', 'LinkedIn', 'GitHub', 'Facebook', 'YouTube', 'Snapchat', 'Threads',
-    'Behance', 'Dribbble', 'Reddit', 'Medium', 'Pinterest', 'Twitch', 'Dev.to', 'Product Hunt', 'Fiverr', 'Upwork'
+    'Behance', 'Dribbble', 'Reddit', 'Medium', 'Pinterest', 'Twitch', 'Dev.to', 'Product Hunt', 'Fiverr', 'Upwork', 'Other ..',
   ],
 
   regions: [
     'Tunisia', 'Morocco', 'Algeria', 'Egypt', 'Saudi Arabia', 'Lebanon', 'France',
     'USA', 'Canada', 'UK', 'Germany', 'Italy', 'Spain', 'Senegal', 'Ivory Coast',
     'South Africa', 'India', 'Pakistan', 'Indonesia', 'Philippines', 'Brazil',
-    'Mexico', 'Turkey', 'Japan', 'South Korea'
+    'Mexico', 'Turkey', 'Japan', 'South Korea', 'Other ..'
   ]
   
 };
