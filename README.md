@@ -20,11 +20,25 @@ _Custophi combines cutting-edge password security with AI-powered personal brand
 - **Privacy-First Philosophy**: Zero data retention, GDPR compliant, end-to-end encryption
 
 ---
+  
+## 🌐 Live Demo  
+**Experience Custophi in Action**  
+<div align="center">
 
-## 🌐 Live Demo
+[![Live Production](https://img.shields.io/badge/🚀_Live_Production-Custophi_Web-2EA44F?style=for-the-badge&logo=netlify&logoColor=white)](https://custophi.netlify.app/)  
+**🔗 Quick Access:** `https://custophi.netlify.app/`
 
-You can explore the live demo of the Custophi Web app here:  
-[Live Demo](https://custophi.netlify.app/)
+</div>
+
+<div align="center" style="margin:2rem 0">
+  <a href="https://custophi.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Explore_Now-%2300C7B7?style=flat-square&logo=windowsterminal&logoColor=white" alt="Explore Demo">
+  </a>
+  
+  ![Demo Preview](https://via.placeholder.com/800x400.png/2EA44F/ffffff?text=Custophi+Web+Preview+%0A%F0%9F%9A%80+Click+Live+Demo+Badge+Above)
+</div>
+
+*✨ Protip: Bookmark this URL for quick access to your digital identity toolkit!*
 
 ---
 
