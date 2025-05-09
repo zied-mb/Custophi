@@ -6,6 +6,7 @@ _Custophi combines cutting-edge password security with AI-powered personal brand
 [![React](https://img.shields.io/badge/React-18.x-%2361DAFB)](https://reactjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-%2338B2AC)](https://tailwindcss.com/)
 [![Netlify](https://img.shields.io/badge/Deployed-Netlify-%2300C7B7)](https://www.netlify.com/)
+[![Live Site](https://img.shields.io/badge/Live_Site-Available-brightgreen)](https://custophi.netlify.app/)
 [![License](https://img.shields.io/badge/License-Proprietary-blue)](LICENSE)
 [![GDPR Compliant](https://img.shields.io/badge/GDPR-Compliant-green)]
 [![Security](https://img.shields.io/badge/Security-Military_Grade-red)]
@@ -19,6 +20,14 @@ _Custophi combines cutting-edge password security with AI-powered personal brand
 - **Privacy-First Philosophy**: Zero data retention, GDPR compliant, end-to-end encryption
 
 ---
+
+## 🌐 Live Demo
+
+You can explore the live demo of the Custophi Web app here:  
+[Live Demo](https://custophi.netlify.app/)
+
+---
+
 
 ## 🛠️ Tech Stack
 
