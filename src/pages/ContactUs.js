@@ -38,6 +38,7 @@ function ContactUs() {
     e.preventDefault();
     setIsSending(true);
 
+    // Send main contact message to admin
     emailjs.sendForm(
       process.env.REACT_APP_EMAILJS_SERVICE_ID,
       process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
@@ -46,6 +47,24 @@ function ContactUs() {
     )
     .then((result) => {
       setSendStatus('success');
+      
+      // Send auto-reply email to the user
+      emailjs.send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_AUTO_REPLY_TEMPLATE_ID, // Define auto-reply template ID in your environment variables
+        {
+          to_name: form.current.name.value,
+          to_email: form.current.email.value,
+        },
+        process.env.REACT_APP_EMAILJS_USER_ID
+      )
+      .then(() => {
+        console.log('Auto-reply sent successfully');
+      })
+      .catch((error) => {
+        console.error('Error sending auto-reply: ', error);
+      });
+
       form.current.reset();
     })
     .catch((error) => {
