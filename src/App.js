@@ -1,20 +1,19 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+
+import Home from "./pages/Home";
 import BioScripto from './pages/BioScripto';
+import PasswordGenerator from './pages/SecretKey';
+import BlogBio from "./pages/BlogBio";
+import BlogSecret from "./pages/BlogSecret";
 import About from './pages/About';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import ContactUs from './pages/ContactUs';
-import PasswordGenerator from './pages/SecretKey';
-import Home from "./pages/Home";
-import BlogBio from "./pages/BlogBio";
-import BlogSecret from "./pages/BlogSecret";
 import ScrollToTop from './pages/ScrollToTop';
-
-
-
 
 const App = () => {
   const [selectedStyle, setSelectedStyle] = useState('');
@@ -27,6 +26,7 @@ const App = () => {
   const [generatedBio, setGeneratedBio] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+
   const location = useLocation();
 
   useEffect(() => {
@@ -37,19 +37,9 @@ const App = () => {
   const YOUR_SITE_URL = 'http://localhost:3000';
   const YOUR_SITE_NAME = 'BioScripto';
 
-
-
-
-
-
   const generateBio = async () => {
-    if (!selectedStyle) {
-      setError('Please select a personality style.');
-      return;
-    }
-
-    if (!selectedNiche) {
-      setError('Please select a niche.');
+    if (!selectedPlatform || !selectedPlatform) {
+      setError('Please choose a platform to get started.');
       return;
     }
 
@@ -69,17 +59,21 @@ const App = () => {
           model: 'deepseek/deepseek-prover-v2:free',
           messages: [{
             role: 'user',
-            content: `You're a professional brand copywriter. Generate 5 unique, high-quality bio options for the user tailored for the platform: ${selectedPlatform}.
-
+content: `You're a professional brand copywriter. Generate 5 unique, high-quality bio options tailored for the platform: ${selectedPlatform}. Focus specifically on crafting impactful and relevant wording that the user can use in ${additionalText}, ensuring each bio matches the tone, audience, and niche of the platform. Prioritize clarity, personality, and engagement.
+            
             Required:
-            - Personality style: ${selectedStyle}
-            - Niche: ${selectedNiche}
+            - Platform: ${selectedPlatform}
             
             Optional (use if provided):
-            ${profileName ? `- Profile Name: ${profileName}` : ''}
-            ${selectedRegion ? `- Region: ${selectedRegion}` : ''}
-            ${selectedTheme ? `- Content Theme: ${selectedTheme}` : ''}
             ${additionalText ? `- Additional Info: ${additionalText}` : ''}
+            ${selectedNiche? `- content Niche: ${selectedNiche}` : ''}
+            ${selectedTheme ? `- Content Theme: ${selectedTheme}` : ''}
+            ${selectedStyle ? `- content Style: ${selectedStyle}` : ''}
+            ${selectedRegion ? `- Region: ${selectedRegion}` : ''}
+            ${profileName ? `- Profile Name: ${profileName}` : ''}
+
+
+
             
             Instructions:
             - Each bio must be under the character limit for ${selectedPlatform}.
@@ -108,40 +102,26 @@ const App = () => {
               - No two bios should look or sound the same.
               - One could be professional, another fun, one minimalist, one bold, and another witty or edgy.
             
-            - If profileName is provided, include it naturally in at least 1 or 2 bios (e.g., “Hi, I’m ${profileName}”).
-            
-            - If selectedRegion or selectedTheme is given, reference them subtly (e.g., “Explorer in ${selectedRegion}” or “Focused on ${selectedTheme}”).
-            
-            - If additionalText includes emojis, quotes, or stylistic elements, reflect those lightly in tone or formatting.
-            
+            - If profileName is provided, include it naturally in at least 1 or 2 bios.
+            - Reference region or theme subtly.
+            - Reflect emojis or quotes from additionalText lightly in tone.
             - Avoid hashtags, @ mentions, or unnecessary clutter.
-
-            - Ensure bios are clear, concise, and engaging.
-
-            - Write directly the 5 bios in a clean, numbered list format with clear spacing.
-            
-            **Goal:** Make sure each bio feels original, fresh, and platform-appropriate — something the user would proudly use right away.`
+            - Write bios in a clean, numbered list format.
+            - Ensure each bio is engaging, clear, and platform-appropriate.`
           }],
         }),
       });
 
       if (!response.ok) {
         const errorData = await response.json();
-        const errorMessage = errorData.error?.message || 'The server is busy now... Please try again later.';
-        setGeneratedBio(`⚠️ ${errorMessage} `);
-        setLoading(false);
-        return;
+        const errorMessage = errorData.error?.message || 'Server error. Please try again later.';
+        setGeneratedBio(`⚠️ ${errorMessage}`);
+      } else {
+        const data = await response.json();
+        setGeneratedBio(data.choices?.[0]?.message?.content || '⚠️ No bios returned.');
       }
-
-      const data = await response.json();
-      setGeneratedBio(
-        data.choices?.[0]?.message?.content ||
-        '⚠️ The server is busy now... Please try again later. 🕒'
-      );
     } catch (err) {
-      setError(
-        err.message || 'Something went wrong while generating the bio. Please try again later.'
-      );
+      setError(err.message || 'Error generating bio. Try again later.');
     } finally {
       setLoading(false);
     }
@@ -150,8 +130,8 @@ const App = () => {
   const copyToClipboard = async () => {
     try {
       await navigator.clipboard.writeText(generatedBio);
-    } catch (err) {
-      setError('Failed to copy to clipboard');
+    } catch {
+      setError('Failed to copy bio to clipboard.');
     }
   };
 
@@ -159,14 +139,10 @@ const App = () => {
     <div className="min-h-screen flex flex-col">
       <ScrollToTop />
       <Navbar />
-
       <main className="flex-grow">
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
-
             <Route path="/" element={<Home />} />
-
-
             <Route
               path="/BioScripto"
               element={
@@ -183,8 +159,6 @@ const App = () => {
                   setSelectedTheme={setSelectedTheme}
                   selectedPlatform={selectedPlatform}
                   setSelectedPlatform={setSelectedPlatform}
-
-
                   profileName={profileName}
                   setProfileName={setProfileName}
                   generatedBio={generatedBio}
@@ -196,20 +170,14 @@ const App = () => {
               }
             />
             <Route path="/PasswordGenerator" element={<PasswordGenerator />} />
-
-
             <Route path="/blogbio" element={<BlogBio />} />
             <Route path="/blogsecret" element={<BlogSecret />} />
-
-
-
             <Route path="/about" element={<About />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/contact-us" element={<ContactUs />} />
           </Routes>
         </AnimatePresence>
       </main>
-
       <Footer />
     </div>
   );
