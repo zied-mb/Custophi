@@ -26,7 +26,7 @@ _Custophi combines cutting-edge password security with AI-powered personal brand
 
 [![Production Environment](https://img.shields.io/badge/🚀_Live_Production-Custophi_Web-9146FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=2A2A2A)](https://custophi.netlify.app/)  
 
-<div align="center" style="margin-top: 2rem">
+<div style="margin-top: 2rem">
   <img src="https://img.shields.io/badge/🔒_Zero_Data_Retention-100%25_Private-01D277?logo=privacypass&logoColor=white" alt="Privacy Guarantee">
   <img src="https://img.shields.io/badge/⚡_Edge_Deployed-Global_CDN-FF6F01?logo=cloudflare&logoColor=white" alt="Deployment Status">
 </div>
