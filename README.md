@@ -24,7 +24,8 @@ _Custophi combines cutting-edge password security with AI-powered personal brand
 ## 🌐 Live Experience  
 **Immerse Yourself in Digital Sovereignty**  
 
-Experience Custophi in action by exploring the live demo of the web app. See how our tools for password security and AI-powered personal branding work seamlessly together:
+Experience Custophi in action by exploring the live demo of the web app.
+See how our tools for password security and AI-powered personal branding work seamlessly together:
 
 [![Production Environment](https://img.shields.io/badge/🚀_Live_Production-Custophi_Web-9146FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=2A2A2A)](https://custophi.netlify.app/)  
 
