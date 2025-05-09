@@ -33,7 +33,7 @@ const App = () => {
     setError(null);
   }, [selectedStyle, selectedNiche]);
 
-  const OPENROUTER_API_KEY = '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';
+  const OPENROUTER_API_KEY = process.env.REACT_APP_OPENROUTER_API_KEY;
   const YOUR_SITE_URL = 'http://localhost:3000';
   const YOUR_SITE_NAME = 'BioScripto';
 
